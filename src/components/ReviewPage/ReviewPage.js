@@ -16,6 +16,7 @@ function ReviewPage() {
 
     useEffect(() => {
         fetchData().then();
+        // eslint-disable-next-line
     }, [bookName]);
 
     const fetchData = async () => {
