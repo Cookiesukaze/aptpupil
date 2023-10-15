@@ -4,6 +4,8 @@ import BookList from './components/BookList/BookList';
 import BookInner from './components/BookInner/BookInner';
 import ReviewPage from './components/ReviewPage/ReviewPage';
 import StudyPage from './components/StudyPage/StudyPage';
+import ReactDOM from 'react-dom';
+ReactDOM.render(<App />, document.getElementById('root'));
 
 function App() {
     return (
