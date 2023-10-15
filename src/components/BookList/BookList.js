@@ -26,7 +26,7 @@ function BookList() {
     }, []);
 
     const openBook = (book) => {
-        navigate(`/book/${book.name}`, { state: book });
+        navigate(`/aptpupil/book/${book.name}`, { state: book });
     };
 
     return (

@@ -19,13 +19,13 @@ function BookInner() {
     }, [book]);
 
     const handleReview = () => {
-        navigate('/review', {
+        navigate('/aptpupil/review', {
             state: book // 替换为实际的书名
         });
     };
 
     const handleContinue = () => {
-        navigate(`/continue`);
+        navigate(`/aptpupil/continue`);
     };
 
     return (

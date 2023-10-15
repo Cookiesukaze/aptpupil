@@ -11,11 +11,11 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<BookList />} />
-                <Route path="/book/:name" element={<BookInner />} />
-                <Route path="/review" element={<ReviewPage  />} />
-                <Route path="/continue" element={<StudyPage  />} />
-                <Route path="*" element={<Navigate to="/" />} />
+                <Route path="/aptpupil" element={<BookList />} />
+                <Route path="/aptpupil/book/:name" element={<BookInner />} />
+                <Route path="/aptpupil/review" element={<ReviewPage  />} />
+                <Route path="/aptpupil/continue" element={<StudyPage  />} />
+                <Route path="*" element={<Navigate to="/aptpupil" />} />
             </Routes>
         </Router>
     );
