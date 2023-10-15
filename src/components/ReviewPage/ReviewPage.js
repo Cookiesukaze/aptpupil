@@ -23,12 +23,12 @@ function ReviewPage() {
         const wordKeys = Object.keys(words);
         const randomIndex = Math.floor(Math.random() * wordKeys.length);
         const randomWord = wordKeys[randomIndex];
-        const theme="美食、健康、自然、个人成长、科学、个人成长、职业生涯"
+        const theme="美食、健康、自然、个人成长、科学、职业生涯、生活常识、冷知识"
         const payload = {
             messages: [
                 {
                     role: 'user',
-                    content:  "英语单词："+randomWord+"主题列表："+theme+"。使用给定的英语单词，在主题列表中只选择一个来构造简单的英语句子，确保句子能够清楚地表达单词的意思。按照“造句：...，翻译：...”格式返回，不需要多余的结构。"
+                    content:  "英语单词："+randomWord+"主题列表："+theme+"。使用给定的英语单词，在主题列表中只选择一个来构造简单的英语句子，确保句子能够清楚地表达单词的意思。按照“主题：...，造句：...，翻译：...”格式返回，不需要多余的结构。"
                 }
             ]
         };
