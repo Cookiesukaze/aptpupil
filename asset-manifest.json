@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/aptpupil/static/css/main.e6c13ad2.css",
-    "main.js": "/aptpupil/static/js/main.a81c860b.js",
+    "main.js": "/aptpupil/static/js/main.9295eb07.js",
     "static/js/787.b26e6d76.chunk.js": "/aptpupil/static/js/787.b26e6d76.chunk.js",
     "static/media/扇贝完整乱序.txt": "/aptpupil/static/media/扇贝完整乱序.90a9c85cb1cccf97281e.txt",
     "static/media/扇贝精简乱序.txt": "/aptpupil/static/media/扇贝精简乱序.f7e4e585502408b4421a.txt",
     "index.html": "/aptpupil/index.html",
     "main.e6c13ad2.css.map": "/aptpupil/static/css/main.e6c13ad2.css.map",
-    "main.a81c860b.js.map": "/aptpupil/static/js/main.a81c860b.js.map",
+    "main.9295eb07.js.map": "/aptpupil/static/js/main.9295eb07.js.map",
     "787.b26e6d76.chunk.js.map": "/aptpupil/static/js/787.b26e6d76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a81c860b.js"
+    "static/js/main.9295eb07.js"
   ]
 }
