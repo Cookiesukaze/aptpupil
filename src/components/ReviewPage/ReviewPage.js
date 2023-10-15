@@ -23,7 +23,7 @@ function ReviewPage() {
         const wordKeys = Object.keys(words);
         const randomIndex = Math.floor(Math.random() * wordKeys.length);
         const randomWord = wordKeys[randomIndex];
-        const theme="生活、食物"
+        const theme="美食、健康、自然、个人成长、科学、个人成长、职业生涯"
         const payload = {
             messages: [
                 {
